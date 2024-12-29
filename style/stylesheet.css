@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+body{
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+}
+.mainContainer{
+  border: rgba(0, 0, 0, 0.164) outset;
+  background-color: whitesmoke;
+  padding: 10px;
+  font-family: 'Outfit';
+}
+.TurkeyImageWithFlag{
+  width: 100%;
+  border-radius: 20px;
+}
+.textthatbigger{
+  font-size: larger;
+}
+.img1{
+  width: 90%;
+  border-radius: 10px;
+  height: 15vh;
+}
+.restaurantimageContainer{
+  display: flex;
+}
+@media only screen and (min-width: 992px){
+  .mainContainer{
+    width: 30%;
+    justify-content: center;
+    padding: 3em;
+    border-radius: 20px;
+  }
+}
